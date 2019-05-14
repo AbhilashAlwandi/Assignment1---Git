@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Appium Demo Suite]" parallel="tests">
+  <parameter name="driver.name" value="perfectoRemoteDriver"/>
+  <listeners>
+    <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="IOS Calc Test(failed)" parallel="tests">
+    <parameter name="env.resources" value="src/main/resources/ios"/>
+    <parameter name="driver.capabilities.model" value="iPhone.*"/>
+    <groups>
+      <run>
+        <include name="@appium"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="scenario"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- IOS Calc Test(failed) -->
+  <test name="Android Calc Test(failed)" parallel="tests">
+    <parameter name="env.resources" value="src/main/resources/android"/>
+    <parameter name="driver.capabilities.model" value="Galaxy S.*"/>
+    <groups>
+      <run>
+        <include name="@appium"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="scenario"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- Android Calc Test(failed) -->
+</suite> <!-- Failed suite [Appium Demo Suite] -->

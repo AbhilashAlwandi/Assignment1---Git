@@ -1,0 +1,12 @@
+{
+  "total": 5,
+  "pass": 0,
+  "fail": 0,
+  "skip": 2,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario",
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "startTime": 1499678846171,
+  "endTime": 1499679086816
+}

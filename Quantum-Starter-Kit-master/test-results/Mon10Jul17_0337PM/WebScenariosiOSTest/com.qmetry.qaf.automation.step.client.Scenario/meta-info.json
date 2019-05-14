@@ -1,0 +1,46 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebSearch",
+          "@Web"
+        ],
+        "lineNo": 5.0,
+        "name": "Search Quantum",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum()[pri:1005, instance:com.qmetry.qaf.automation.step.client.Scenario@3ed]"
+      },
+      "dependsOn": [],
+      "startTime": 1499681224574,
+      "duration": 120921,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebResultsList",
+          "@Web"
+        ],
+        "lineNo": 12,
+        "name": "Search Quantum with results",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1006, instance:com.qmetry.qaf.automation.step.client.Scenario@3ee]"
+      },
+      "dependsOn": [],
+      "startTime": 1499681345559,
+      "duration": 120460,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

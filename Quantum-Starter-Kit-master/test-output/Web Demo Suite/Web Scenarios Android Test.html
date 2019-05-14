@@ -1,0 +1,292 @@
+<html>
+<head>
+<title>TestNG:  Web Scenarios Android Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Web Scenarios Android Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 11 16:30:57 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55536 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>@Web </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword CSV Data()'><b>Search Keyword CSV Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword CSV Data)<br>Parameters: {searchResult=Introducing Quantum Framework, searchKey=quantum perfecto}<br/>
+<a href="#Output-503243583" onClick='toggleBox("Output-503243583", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-503243583" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-503243583">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword CSV Data [{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword CSV Data()'><b>Search Keyword CSV Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword CSV Data)<br>Parameters: {searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit }<br/>
+<a href="#Output-688349846" onClick='toggleBox("Output-688349846", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-688349846" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-688349846">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword CSV Data [{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit }] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit " ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit "</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword Inline Data()'><b>Search Keyword Inline Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword Inline Data)<br>Parameters: {searchResult=Introducing Quantum Framework, searchKey=quantum perfecto, recId=1}<br/>
+<a href="#Output-752193991" onClick='toggleBox("Output-752193991", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-752193991" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-752193991">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword Inline Data [{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto, recId=1}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword Inline Data()'><b>Search Keyword Inline Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword Inline Data)<br>Parameters: {searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit, recId=2}<br/>
+<a href="#Output-1853360224" onClick='toggleBox("Output-1853360224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1853360224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1853360224">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword Inline Data [{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit, recId=2}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword Inline Data()'><b>Search Keyword Inline Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword Inline Data)<br>Parameters: {searchResult=Introducing Quantum Framework, searchKey=perfecto quantum framework, recId=3}<br/>
+<a href="#Output-378312761" onClick='toggleBox("Output-378312761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-378312761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-378312761">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword Inline Data [{searchResult=Introducing Quantum Framework, searchKey=perfecto quantum framework, recId=3}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "perfecto quantum framework" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "perfecto quantum framework"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword XML Data()'><b>Search Keyword XML Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword XML Data)<br>Parameters: {recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework}<br/>
+<a href="#Output-1723393735" onClick='toggleBox("Output-1723393735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1723393735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1723393735">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword XML Data [{recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Search Keyword XML Data()'><b>Search Keyword XML Data</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Search Keyword XML Data)<br>Parameters: {recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub}<br/>
+<a href="#Output-1204220016" onClick='toggleBox("Output-1204220016", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1204220016" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1204220016">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Keyword XML Data [{recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub}] █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Search Quantum()'><b>Search Quantum</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Search Quantum)<br/>
+<a href="#Output-1220792252" onClick='toggleBox("Output-1220792252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1220792252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1220792252">
+▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\m1039682\AppData\Local\Temp\scoped_dir8896_4636}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}] ▀▄▀▄▀<br/>
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Quantum █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "quantum perfecto" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "Introducing Quantum Framework" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then I am on Google Search Page ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I am on Google Search Page</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Search Quantum with results()'><b>Search Quantum with results</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Search Quantum with results)<br/>
+<a href="#Output-381949084" onClick='toggleBox("Output-381949084", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-381949084" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-381949084">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Quantum with results █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have following search results:["Starter Kit","GitHub","Getting Started"] ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have following search results:["Starter Kit","GitHub","Getting Started"] ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have following search results:["Starter Kit","GitHub","Getting Started"]</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Starter Kit present : Actual Starter Kit present</div><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div><div  class="pass"><span class="pass-label">P </span>Expected Getting Started present : Actual Getting Started present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e9</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.Search Quantum with results()'><b>Search Quantum with results</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (Search Quantum with results)<br/>
+<a href="#Output-1718265758" onClick='toggleBox("Output-1718265758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1718265758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1718265758">
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█<br/>
+█ TEST STARTED: Search Quantum with results █<br/>
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█<br/>
+▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: When I search for "http://projectquantum.io" ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: When I search for "http://projectquantum.io" ▀ ▀ ▀<br/>
+▄ ▄ ▄ BEGIN STEP: Then it should have "About: Project Quantum" in search results ▄ ▄ ▄<br/>
+▀ ▀ ▀ END STEP: Then it should have "About: Project Quantum" in search results ▀ ▀ ▀<br/>
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "http://projectquantum.io"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "About: Project Quantum" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected About: Project Quantum present : Actual About: Project Quantum present</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3ea</td></tr>
+</table><p>
+</body>
+</html>

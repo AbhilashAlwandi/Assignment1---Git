@@ -1,0 +1,68 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebSearch",
+          "@Web"
+        ],
+        "lineNo": 5.0,
+        "name": "Search Quantum",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1499770857730,
+      "duration": 23103,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebResultsList",
+          "@Web"
+        ],
+        "lineNo": 12.0,
+        "name": "Search Quantum with results",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1499770880922,
+      "duration": 3579,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebSearchListContains",
+          "@Web"
+        ],
+        "lineNo": 21,
+        "name": "Search Quantum with results",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Quantum with resultsAUoqJQriXv",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1499770884635,
+      "duration": 3211,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

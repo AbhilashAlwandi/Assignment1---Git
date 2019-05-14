@@ -1,0 +1,32 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "quantum perfecto",
+          "recId": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"}]",
+        "lineNo": 20,
+        "name": "Search Keyword Inline Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1007, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ef]"
+      },
+      "dependsOn": [],
+      "startTime": 1499678966520,
+      "duration": 120296,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

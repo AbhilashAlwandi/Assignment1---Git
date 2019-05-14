@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Web Demo Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="Web Scenarios Android Test(failed)" parallel="tests">
+    <parameter name="driver.capabilities.model" value="Galaxy.*"/>
+    <groups>
+      <run>
+        <include name="@Web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <methods>
+          <include name="scenario" invocation-numbers="0 1"/>
+          <include name="scenario" invocation-numbers="0 1"/>
+          <include name="scenario" invocation-numbers="0 1"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="scenario"/>
+          <include name="setupMethod"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- Web Scenarios Android Test(failed) -->
+</suite> <!-- Failed suite [Web Demo Suite] -->

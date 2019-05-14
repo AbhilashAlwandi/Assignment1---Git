@@ -1,0 +1,202 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "quantum perfecto",
+          "recId": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"},{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"perfecto quantum framework\",\"recId\":\"3\"}]",
+        "lineNo": 21.0,
+        "name": "Search Keyword Inline Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1499769945508,
+      "duration": 2827,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "GitHub",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit",
+          "recId": "2"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"},{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"perfecto quantum framework\",\"recId\":\"3\"}]",
+        "lineNo": 21.0,
+        "name": "Search Keyword Inline Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword Inline DataCzAqZkFplQ",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1499769948449,
+      "duration": 3342,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "perfecto quantum framework",
+          "recId": "3"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"},{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"perfecto quantum framework\",\"recId\":\"3\"}]",
+        "lineNo": 21.0,
+        "name": "Search Keyword Inline Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword Inline DataXCVCelXFEe",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1499769951948,
+      "duration": 2826,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "recId": "1",
+          "searchKey": "quantum perfecto",
+          "searchResult": "Introducing Quantum Framework"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDDxml",
+          "@Web"
+        ],
+        "key": "demo.websearch.dataset",
+        "lineNo": 33.0,
+        "name": "Search Keyword XML Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1499769954926,
+      "duration": 2616,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "recId": "2",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit",
+          "searchResult": "GitHub"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDDxml",
+          "@Web"
+        ],
+        "key": "demo.websearch.dataset",
+        "lineNo": 33.0,
+        "name": "Search Keyword XML Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword XML DatatfhXOPRiTt",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1499769957661,
+      "duration": 3065,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "quantum perfecto"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.csv",
+        "description": "",
+        "groups": [
+          "@WebDDcsv",
+          "@Web"
+        ],
+        "lineNo": 42.0,
+        "name": "Search Keyword CSV Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1499769960828,
+      "duration": 2870,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "GitHub",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit "
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.csv",
+        "description": "",
+        "groups": [
+          "@WebDDcsv",
+          "@Web"
+        ],
+        "lineNo": 42,
+        "name": "Search Keyword CSV Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword CSV DatadpXDJQSlxW",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1499769963823,
+      "duration": 3101,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="100" name="Web Demo Suite" parallel="tests">
+  <listeners>
+    <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+  </listeners>
+  <test name="Web Scenarios Android Test">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Search Quantum")||testngMethod.getMethodName().equalsIgnoreCase("Search Quantum with results")||testngMethod.getMethodName().equalsIgnoreCase("Search Keyword Inline Data")||testngMethod.getMethodName().equalsIgnoreCase("Search Keyword XML Data")||testngMethod.getMethodName().equalsIgnoreCase("Search Keyword CSV Data")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <parameter name="driver.capabilities.model" value="Galaxy.*"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- Web Scenarios Android Test -->
+</suite> <!-- Web Demo Suite -->

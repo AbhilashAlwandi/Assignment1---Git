@@ -1,0 +1,61 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "quantum perfecto",
+          "recId": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"}]",
+        "lineNo": 20.0,
+        "name": "Search Keyword Inline Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1499678875438,
+      "duration": 120138,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "GitHub",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit",
+          "recId": "2"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"}]",
+        "lineNo": 20,
+        "name": "Search Keyword Inline Data",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword Inline DataNfUcyialvT",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1499678995670,
+      "duration": 120100,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

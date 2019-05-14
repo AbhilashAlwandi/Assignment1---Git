@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="16" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\m1039682\AppData\Local\Temp\scoped_dir8896_4636}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}] ▀▄▀▄▀]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Quantum █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "quantum perfecto" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "Introducing Quantum Framework" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I am on Google Search Page</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Quantum with results █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have following search results:["Starter Kit","GitHub","Getting Started"] ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have following search results:["Starter Kit","GitHub","Getting Started"] ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have following search results:["Starter Kit","GitHub","Getting Started"]</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Starter Kit present : Actual Starter Kit present</div><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div><div  class="pass"><span class="pass-label">P </span>Expected Getting Started present : Actual Getting Started present</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Quantum with results █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "http://projectquantum.io" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "http://projectquantum.io" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "About: Project Quantum" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "About: Project Quantum" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "http://projectquantum.io"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "About: Project Quantum" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected About: Project Quantum present : Actual About: Project Quantum present</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Keyword Inline Data [{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto, recId=1}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Keyword Inline Data [{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit, recId=2}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Keyword Inline Data [{searchResult=Introducing Quantum Framework, searchKey=perfecto quantum framework, recId=3}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "perfecto quantum framework" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "perfecto quantum framework"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Keyword XML Data [{recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Keyword XML Data [{recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Keyword CSV Data [{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto}] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: Search Keyword CSV Data [{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit }] █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit " ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit "</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Web Demo Suite" duration-ms="55536" started-at="2017-07-11T11:00:57Z" finished-at="2017-07-11T11:01:53Z">
+    <groups>
+      <group name="@WebDDcsv">
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" name="Search Keyword CSV Data" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- @WebDDcsv -->
+      <group name="@WebDDxml">
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]" name="Search Keyword XML Data" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- @WebDDxml -->
+      <group name="@WebSearchListContains">
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" name="Search Quantum with results" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @WebSearchListContains -->
+      <group name="@Web">
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" name="Search Keyword CSV Data" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" name="Search Keyword Inline Data" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]" name="Search Keyword XML Data" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="Search Quantum with results" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" name="Search Quantum with results" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Quantum()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Search Quantum" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @Web -->
+      <group name="@WebSearch">
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Quantum()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="Search Quantum" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @WebSearch -->
+      <group name="@WebDD">
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" name="Search Keyword Inline Data" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- @WebDD -->
+      <group name="@WebResultsList">
+        <method signature="src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="Search Quantum with results" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @WebResultsList -->
+    </groups>
+    <test name="Web Scenarios Android Test" duration-ms="55536" started-at="2017-07-11T11:00:57Z" finished-at="2017-07-11T11:01:53Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum" name="setupSuit" is-config="true" duration-ms="20" started-at="2017-07-11T16:30:57Z" finished-at="2017-07-11T16:30:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum" name="setupTest" is-config="true" duration-ms="2" started-at="2017-07-11T16:30:57Z" finished-at="2017-07-11T16:30:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum" name="setup" is-config="true" duration-ms="1" started-at="2017-07-11T16:30:57Z" finished-at="2017-07-11T16:30:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-07-11T16:30:57Z" finished-at="2017-07-11T16:30:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Search Quantum()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="Search Quantum" name="Search Quantum" duration-ms="23103" started-at="2017-07-11T16:30:57Z" finished-at="2017-07-11T16:31:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\m1039682\AppData\Local\Temp\scoped_dir8896_4636}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}] ▀▄▀▄▀]]>
+            </line>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Quantum █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "quantum perfecto" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "Introducing Quantum Framework" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then I am on Google Search Page</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Quantum -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:20Z" finished-at="2017-07-11T16:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Quantum status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Quantum()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=▀▄▀▄▀ DEVICE PROPERTIES: Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\m1039682\AppData\Local\Temp\scoped_dir8896_4636}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}] ▀▄▀▄▀]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:20Z" finished-at="2017-07-11T16:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="setup" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:20Z" finished-at="2017-07-11T16:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:20Z" finished-at="2017-07-11T16:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Search Quantum with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="Search Quantum with results" name="Search Quantum with results" duration-ms="3579" started-at="2017-07-11T16:31:20Z" finished-at="2017-07-11T16:31:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Quantum with results █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have following search results:["Starter Kit","GitHub","Getting Started"] ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have following search results:["Starter Kit","GitHub","Getting Started"] ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have following search results:["Starter Kit","GitHub","Getting Started"]</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Starter Kit present : Actual Starter Kit present</div><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div><div  class="pass"><span class="pass-label">P </span>Expected Getting Started present : Actual Getting Started present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Quantum with results -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="setup" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:24Z" finished-at="2017-07-11T16:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:24Z" finished-at="2017-07-11T16:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Search Quantum with results()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="Search Quantum with results" duration-ms="3211" started-at="2017-07-11T16:31:24Z" finished-at="2017-07-11T16:31:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Quantum with results █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "http://projectquantum.io" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "http://projectquantum.io" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "About: Project Quantum" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "About: Project Quantum" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "http://projectquantum.io"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "About: Project Quantum" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected About: Project Quantum present : Actual About: Project Quantum present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Quantum with results -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:24Z" finished-at="2017-07-11T16:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Quantum with results status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="afterClass" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:24Z" finished-at="2017-07-11T16:31:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:27Z" finished-at="2017-07-11T16:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Quantum with results status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1002, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum with results" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:27Z" finished-at="2017-07-11T16:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3ea]" test-instance-name="Search Quantum" name="afterTest" is-config="true" duration-ms="2363" started-at="2017-07-11T16:31:50Z" finished-at="2017-07-11T16:31:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword Inline Data" name="setup" is-config="true" duration-ms="2" started-at="2017-07-11T16:31:27Z" finished-at="2017-07-11T16:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword Inline Data" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:28Z" finished-at="2017-07-11T16:31:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Search Keyword Inline Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Search Keyword Inline Data" name="Search Keyword Inline Data" duration-ms="3514" started-at="2017-07-11T16:31:28Z" data-provider="scenariodp" finished-at="2017-07-11T16:31:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto, recId=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Keyword Inline Data [{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto, recId=1}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Keyword Inline Data -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword Inline Data" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:31Z" finished-at="2017-07-11T16:31:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Keyword Inline Data status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Search Keyword Inline Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Search Keyword Inline Data" name="Search Keyword Inline Data" duration-ms="3367" started-at="2017-07-11T16:31:31Z" data-provider="scenariodp" finished-at="2017-07-11T16:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit, recId=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Keyword Inline Data [{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit, recId=2}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Keyword Inline Data -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword Inline Data" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:31Z" finished-at="2017-07-11T16:31:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword Inline Data" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:35Z" finished-at="2017-07-11T16:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Keyword Inline Data status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword Inline Data" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:35Z" finished-at="2017-07-11T16:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Search Keyword Inline Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="Search Keyword Inline Data" name="Search Keyword Inline Data" duration-ms="2956" started-at="2017-07-11T16:31:35Z" data-provider="scenariodp" finished-at="2017-07-11T16:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchResult=Introducing Quantum Framework, searchKey=perfecto quantum framework, recId=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Keyword Inline Data [{searchResult=Introducing Quantum Framework, searchKey=perfecto quantum framework, recId=3}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "perfecto quantum framework" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "perfecto quantum framework"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Keyword Inline Data -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword Inline Data" name="afterClass" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:38Z" finished-at="2017-07-11T16:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword Inline Data" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:38Z" finished-at="2017-07-11T16:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Keyword Inline Data status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword XML Data" name="setup" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:38Z" finished-at="2017-07-11T16:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword XML Data" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:38Z" finished-at="2017-07-11T16:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Search Keyword XML Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]" test-instance-name="Search Keyword XML Data" name="Search Keyword XML Data" duration-ms="2880" started-at="2017-07-11T16:31:38Z" data-provider="scenariodp" finished-at="2017-07-11T16:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Keyword XML Data [{recId=1, searchKey=quantum perfecto, searchResult=Introducing Quantum Framework}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Keyword XML Data -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword XML Data" name="afterMethod" is-config="true" duration-ms="4" started-at="2017-07-11T16:31:41Z" finished-at="2017-07-11T16:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Keyword XML Data status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword XML Data" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:41Z" finished-at="2017-07-11T16:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Search Keyword XML Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]" test-instance-name="Search Keyword XML Data" name="Search Keyword XML Data" duration-ms="3317" started-at="2017-07-11T16:31:41Z" data-provider="scenariodp" finished-at="2017-07-11T16:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Keyword XML Data [{recId=2, searchKey=Project-Quantum Quantum-Starter-Kit, searchResult=GitHub}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Keyword XML Data -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword XML Data" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:44Z" finished-at="2017-07-11T16:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword XML Data" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:44Z" finished-at="2017-07-11T16:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Keyword XML Data status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword CSV Data" name="setup" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:44Z" finished-at="2017-07-11T16:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Search Keyword CSV Data( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword CSV Data" name="Search Keyword CSV Data" duration-ms="2794" started-at="2017-07-11T16:31:44Z" data-provider="scenariodp" finished-at="2017-07-11T16:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Keyword CSV Data [{searchResult=Introducing Quantum Framework, searchKey=quantum perfecto}] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "quantum perfecto" ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "Introducing Quantum Framework" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "quantum perfecto"</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "Introducing Quantum Framework" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Keyword CSV Data -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword CSV Data" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:44Z" finished-at="2017-07-11T16:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword CSV Data" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:47Z" finished-at="2017-07-11T16:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Keyword CSV Data status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Search Keyword CSV Data( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword CSV Data" name="Search Keyword CSV Data" duration-ms="3159" started-at="2017-07-11T16:31:47Z" data-provider="scenariodp" finished-at="2017-07-11T16:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: Search Keyword CSV Data [{searchResult=GitHub, searchKey=Project-Quantum Quantum-Starter-Kit }] █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given I am on Google Search Page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given I am on Google Search Page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When I search for "${searchKey}" ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When I search for "Project-Quantum Quantum-Starter-Kit " ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then it should have "${searchResult}" in search results ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then it should have "GitHub" in search results ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given I am on Google Search Page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When I search for "Project-Quantum Quantum-Starter-Kit "</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then it should have "GitHub" in search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected GitHub present : Actual GitHub present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search Keyword CSV Data -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword CSV Data" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-07-11T16:31:47Z" finished-at="2017-07-11T16:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword CSV Data" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:50Z" finished-at="2017-07-11T16:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Search Keyword CSV Data status=SUCCESS method=src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Search Keyword CSV Data" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-11T16:31:50Z" finished-at="2017-07-11T16:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6200f9cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- Web Scenarios Android Test -->
+  </suite> <!-- Web Demo Suite -->
+</testng-results>
