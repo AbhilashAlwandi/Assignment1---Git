@@ -1,131 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.qmetry</groupId>
+	<artifactId>LFG-ALertsNotification</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<properties>
+		<testngXmlDir>src/main/resources/config</testngXmlDir>
+		<jmxFilesDir>src/test/jmeter</jmxFilesDir>
+		<testngXmlFile>testng_Alerts_Login.xml</testngXmlFile>
+		<jmeter-maven-plugin.version>2.8.6</jmeter-maven-plugin.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<reportium-sdk.version>1.1.15</reportium-sdk.version>
+		<selenium.version>2.53.1</selenium.version>
+		<testng.version>6.9.10</testng.version>
+		<cukes.version>1.2.5</cukes.version>
+		<qaf.version>2.1.11</qaf.version>
+		<quantum.version>1.11</quantum.version>
+		<org.json.version>20160810</org.json.version>
+		<jmeterVersion>4.0</jmeterVersion>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <groupId>com.qmetry</groupId>
-    <artifactId>quantum-starter</artifactId>
-    <version>1.0-SNAPSHOT</version>
+		<jmeter.analysis.maven.plugin.version>1.0.4</jmeter.analysis.maven.plugin.version>
 
-    <properties>
-        <testngXmlDir>src/main/resources/config</testngXmlDir>
-        <testngXmlFile>testng_web.xml</testngXmlFile>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <reportium-sdk.version>1.1.15</reportium-sdk.version>
-        <selenium.version>2.53.1</selenium.version>
-        <testng.version>6.9.10</testng.version>
-        <cukes.version>1.2.5</cukes.version>
-        <qaf.version>2.1.11</qaf.version>
-        <quantum.version>1.11</quantum.version>
-        <org.json.version>20160810</org.json.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-             
-    </properties>
+	</properties>
 
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
 
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.5.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
-                <configuration>
-                    <argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
-                    <systemPropertyVariables>
-                        <application.properties.file>resources/application.properties</application.properties.file>
-                    </systemPropertyVariables>
+	<!-- Begin of Jmeter Configurations -->
+	<profiles>
 
-                    <suiteXmlFiles>
-                        <suiteXmlFile>${testngXmlDir}/${testngXmlFile}</suiteXmlFile>
-                    </suiteXmlFiles>
+		<profile>
+			<id>APITests</id>
 
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
-    <repositories>
-        <repository>
-            <id>qaf</id>
-            <url>https://qmetry.github.io/qaf/dist</url>
-        </repository>
-        <repository>
-            <releases>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>ignore</checksumPolicy>
-            </releases>
-            <id>ps</id>
-            <url>https://github.com/Project-Quantum/mvn/raw/master/repository</url>
-        </repository>
-       
-    </repositories>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-core</artifactId>
-            <version>1.3</version>
-        </dependency>
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
-        <dependency>
-            <groupId>xml-apis</groupId>
-            <artifactId>xml-apis</artifactId>
-            <version>1.4.01</version>
-        </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>${cukes.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.appium</groupId>
-            <artifactId>java-client</artifactId>
-            <version>4.1.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.qmetry</groupId>
-            <artifactId>qaf</artifactId>
-            <version>${qaf.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.qmetry</groupId>
-            <artifactId>qaf-support</artifactId>
-            <version>${qaf.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.quantum</groupId>
-            <artifactId>quantum-support</artifactId>
-            <version>${quantum.version}</version>
-        </dependency>
-    </dependencies>
+
+			<build>
+				<plugins>
+					<!-- execute JMeter test -->
+					<plugin>
+						<groupId>com.lazerycode.jmeter</groupId>
+						<artifactId>jmeter-maven-plugin</artifactId>
+						<version>${jmeter-maven-plugin.version}</version>
+						<!-- configure different executions of the plugin -->
+						<executions>
+							<execution>
+								<!-- 1) first test run warms up the webserver. Used to fill caches. 
+									With a different set of properties since it runs much shorter than a normal 
+									test and also the rate of requests/second may be much lower. Maybe also use 
+									a different URL set. -->
+								<id>jmeter-tests</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>jmeter</goal>
+								</goals>
+							</execution>
+							<execution>
+								<id>jmeter-check-results</id>
+								<goals>
+									<goal>results</goal>
+								</goals>
+
+								<configuration>
+
+									<jmeterVersion>${jmeterVersion}</jmeterVersion>
+									<testFilesDirectory>${jmxFilesDir}</testFilesDirectory>
+									<generateReports>true</generateReports>
+								</configuration>
+
+
+
+							</execution>
+						</executions>
+					</plugin>
+
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
+	<!-- End of Jmeter Configurations -->
+
+	<!-- Begin of Qunatum Configurations -->
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.21.0</version>
+				<configuration>
+					<argLine>-Dfile.encoding=${project.build.sourceEncoding}</argLine>
+					<systemPropertyVariables>
+						<application.properties.file>resources/application.properties</application.properties.file>
+					</systemPropertyVariables>
+					<suiteXmlFiles>
+						<suiteXmlFile>${testngXmlDir}/${testngXmlFile}</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.5.0</version>
+				<configuration>
+					<executable>java</executable>
+					<arguments>
+						<argument>-classpath</argument>
+						<classpath />
+						<argument>com.alerts.common.TestRunner</argument>
+						<argument>${authenticationData}</argument>
+						<argument>${environmentName}</argument>
+						<argument>${tagList}</argument>
+						<argument>${successThreshold}</argument>
+						<argument>${cloudName}</argument>
+						<argument>${server}</argument>
+						<argument>${browserName}</argument>
+						<argument>${mobileOS}</argument>
+						<argument>${mobileModel}</argument>
+					</arguments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<repositories>
+		<repository>
+			<id>qaf</id>
+			<url>https://qmetry.github.io/qaf/dist</url>
+		</repository>
+		<repository>
+			<releases>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>ignore</checksumPolicy>
+			</releases>
+			<id>ps</id>
+			<url>https://github.com/Project-Quantum/mvn/raw/master/repository</url>
+		</repository>
+		<repository>
+			<id>perfectomobile</id>
+			<name>Perfecto mobile</name>
+			<!-- <url>http://repository-perfectomobile.forge.cloudbees.com/public</url> -->
+			<url>https://repo1.perfectomobile.com/public/repositories/maven</url>
+		</repository>
+		<repository>
+			<id>jai</id>
+			<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-core</artifactId>
+			<version>1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<dependency>
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+			<version>1.4.01</version>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cukes.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.qmetry</groupId>
+			<artifactId>qaf</artifactId>
+			<version>${qaf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.qmetry</groupId>
+			<artifactId>qaf-support</artifactId>
+			<version>${qaf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.quantum</groupId>
+			<artifactId>quantum-support</artifactId>
+			<version>${quantum.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.11</version>
+		</dependency>
+		<dependency>
+			<groupId>com.perfectomobile</groupId>
+			<artifactId>http-client</artifactId>
+			<version>10.7.0.4</version>
+		</dependency>
+	</dependencies>
+	<!-- End of Qunatum Configurations -->
 </project>
